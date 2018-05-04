@@ -1,4 +1,4 @@
-package bootwildfly;
+package bootwildfly.saudacoes;
 
 import org.springframework.data.repository.CrudRepository;
 

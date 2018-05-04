@@ -1,4 +1,4 @@
-package bootwildfly;
+package bootwildfly.saudacoes;
 
 import javax.servlet.ServletContext;
 
@@ -8,8 +8,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import bootwildfly.SomethingFunnyException;
+
 @RestController
-public class ExemploInicialRESTController {
+public class SaudacaoRestController {
 	
 	@Autowired
 	ServletContext context;
@@ -39,6 +41,13 @@ public class ExemploInicialRESTController {
     public Saudacoes receiveHello3(){
         return new Saudacoes(appContext.getBean(SaudacaoService.class).getHello());
     }
+
+    @RequestMapping(value="hellobody", method=RequestMethod.POST)
+    public void receiveHello3(Saudacoes s){
+    	System.out.println(s);
+        //return new Saudacoes(appContext.getBean(SaudacaoService.class).getHello());
+    }
+
     
     @RequestMapping("hellofailed")
     public Saudacoes receiveHelloFailed(String nome){

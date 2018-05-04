@@ -5,6 +5,12 @@ import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import bootwildfly.saudacoes.SaudacaoSecurityService;
+import bootwildfly.saudacoes.Saudacoes;
+import bootwildfly.saudacoes.SaudacoesDTO;
+import bootwildfly.saudacoes.SaudacoesSecurityRepository;
+import bootwildfly.saudacoes.SaudacoesTipoRepository;
+
 @RestController
 public class ExemploSegurancaRESTController {
 

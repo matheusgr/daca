@@ -1,4 +1,4 @@
-package bootwildfly;
+package bootwildfly.saudacoes;
 
 import java.io.Serializable;
 
