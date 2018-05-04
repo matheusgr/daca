@@ -1,12 +1,26 @@
-This is a repo to use as a quickstart to start working with Spring Boot and deploying to the WildFly application server.  This uses the mvn build system and creates a .war file that can be deployed.  The code also contains a sample REST based service listening at /hello.
+# Desenvolvimento de Aplicações Corporativas Avançadas
 
-As an added bonus, this repo can also be deployed directly as a docker container using the WildFly S2I builder image on OpenShift 3 with the following command:
+## Avisos
 
-	oc new-app wildfly:10.0~https://github.com/gshipley/bootwildfly.git
+## Links úteis
 
+*  [Plano de aulas](https://docs.google.com/spreadsheets/d/1RDGcaTT9yen105Pg5m7FRF2Zkma5l0yTfk7N78I1ptA/edit?usp=sharing)
+* [Materiais texto](https://drive.google.com/drive/folders/0B_GydWLdj9t-eS0zOURlamdCOTA)
 
-What, you don't have OpenShift 3 yet? Fix that immediately: www.openshift.org/vm
+## Projeto
 
-----
+* [Sprint Initializr](https://start.spring.io/) para a criação de um projeto spring boot
+* [Exemplo de especificação](https://docs.google.com/document/d/e/2PACX-1vTTGjJvF4GhdoamCMBpo7pqPXK7VO8ntnqSBuSbYBB2zgEVAPzJvR2s_cUE7d9-FxUv0_3WM_CN5OFG/pub) US1-6
+* Seu sistema deve ter:
+  * API Rest
+	* Autenticação
+	* Autorização
+	* ORM/OGM
+	* Testes (Unidade/Integração/Rest)
+	* Frontend (Angular 6, VueJS, React) com autenticação e exercitando 1 US
+	* 2 tecnologias adicionais
+	* Documentação (modelo a ser colocado aqui)
+	* Documentação da Rest API
+	
+	
 
-Test
