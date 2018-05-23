@@ -1,6 +1,8 @@
 # Desenvolvimento de Aplicações Corporativas Avançadas
 
 ## Avisos
+* [Cadastro de projetos](https://goo.gl/forms/87DdkCYsgaoA0BTw1)
+* Modelo de Relatório
 
 ## Links úteis
 
