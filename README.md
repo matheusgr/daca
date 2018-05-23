@@ -2,7 +2,7 @@
 
 ## Avisos
 * [Cadastro de projetos](https://goo.gl/forms/87DdkCYsgaoA0BTw1)
-* Modelo de Relatório
+* [Modelo de Relatório](https://docs.google.com/document/d/17PGwXcK_UXZZgqjrPiHxcwEg9qbZjhb5jIslMCIigvE/edit?usp=sharing)
 
 ## Links úteis
 
