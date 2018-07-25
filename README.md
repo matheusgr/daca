@@ -21,7 +21,7 @@
 	* Testes (Unidade/Integração/Rest)
 	* Frontend (Angular 6, VueJS, React) com autenticação e exercitando 1 US
 	* 2 tecnologias adicionais
-	* Documentação (modelo a ser colocado aqui)
+	* Documentação (modelo definido acima)
 	* Documentação da Rest API
 	
 	
